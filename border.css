@@ -1,0 +1,51 @@
+.pop{
+    background-color: background: #649173;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DBD5A4, #649173);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DBD5A4, #649173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+
+
+    
+
+#main{
+    text-align: center;color:gray ;
+     padding-bottom: 30px;font-style: italic;
+     text-decoration: grey;
+     position: relative;
+
+}
+
+
+.mif{
+    font-family: 'Times New Roman', Times, serif;
+    
+    background-color: tan;
+    text-align: justify;
+    border: rgb(243, 42, 6) groove 7px;
+     border-radius: 30px;
+    margin: 15px;
+    padding: 20px; text-align: right; 
+}
+
+.mof{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(204, 149, 149) ; 
+    text-align: left;
+    border: rgb(223, 88, 64) ridge 7px;
+     border-radius: 45px;
+    margin: 25px;
+     -webkit-margin-collapse: separate;
+    padding: 16px;
+}
+
+.mof::after{
+        content: 'pseudo';
+        font-size: 20px;
+        font-style: oblique;
+        color: rgb(250, 232, 71);
+        background-color: linen;
+        position: static;
+    
+    
+}
